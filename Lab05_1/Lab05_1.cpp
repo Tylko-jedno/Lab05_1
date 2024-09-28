@@ -21,3 +21,8 @@ double k(const double x, const double y)
 {
 	return x/abs(x*x*x + y*y*y) + y/abs(x + y);
 }
+
+int sum(int x, int y)
+{
+	return x + y;
+}
